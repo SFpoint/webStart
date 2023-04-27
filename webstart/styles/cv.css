@@ -1,0 +1,8 @@
+.cvBlock .cvContainer .cv{
+    display: none;
+      
+}
+
+.cvBlock .cvContainer .cv:nth-child(-n + 5){
+    display: flex;
+}

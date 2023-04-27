@@ -1,0 +1,891 @@
+
+
+.quizBlock{
+    position: fixed;
+}
+.headerCart{
+  background: none;
+}
+.ourContactsBlock{
+  z-index: 9;
+}
+.mainBlock .restrictblock{
+  display: flex;
+}
+.backGroundDark .ourContactsBlock .ourContactsContainer{
+  background: #1B1B21;
+}
+.backGroundlight .ourContactsBlock .ourContactsContainer{
+  background: #C8BAE5;
+}
+.backGroundDark  .ourContactsBlock h1 {
+  color: #B39DE1;
+}
+.backGroundlight .ourContactsBlock .ourContactsContainer .ourContatcs svg{
+  fill: #101014;
+}
+.backGroundlight .ourContactsBlock .ourContactsContainer .ourContatcs svg path{
+  fill: #101014;
+}
+.backGroundlight .ourContactsBlock h1{
+  color:  #101014;
+}
+.backGroundlight .ourContactsBlock .ourContactsContainer h3{
+  color: #1B1B21;
+}
+.backGroundlight .ourContactsBlock .ourContactsContainer p{
+  color: #1B1B21;
+}
+.backGroundDark .ourContactsBlock .ourContactsContainer h3{
+  color: #CFC4E7;
+}
+.backGroundDark .ourContactsBlock .ourContactsContainer p{
+  color: #C8BAE5;
+}
+.backGroundlight .ourContactsBlock .ourContactsContainer .map .media svg{
+fill: #101014;
+}
+.backGroundlight .ourContactsBlock .ourContactsContainer .map .media svg path{
+  fill: #101014;
+  }
+  .backGroundlight .ourContactsBlock .askUsContainer h1{
+    color: #101014;
+  }
+  .backGroundlight .ourContactsBlock .askUsContainer .askUs button{
+    background: #B39DE1;
+    color: #1B1B21;
+  }
+  .backGroundlight .calendarContainer{
+    background: #101014;
+  }
+  .backGroundlight .calendar{
+    background: #1B1B21;
+  }
+  .backGroundlight .calendarBlock h2{
+    color: #101014;
+  }
+  .backGroundlight .calendarHeader h2{
+    color: #CFC4E7;
+  }
+  .backGroundlight .calendarDays{
+    background: #1B1B21;
+  }
+  .backGroundlight .calendarDays p{
+    color: rgba(207, 196, 231, 0.5);
+  }
+  .backGroundlight .hour{
+    color: #CFC4E7;
+  }
+  .backGroundlight .calendarDays .today:last-child{
+    color: #CFC4E7;
+    background: #101014;
+  }
+  .backGroundlight .calendarDays p:last-child{
+    color: #CFC4E7;
+  }
+.backGroundDark .ourContactsBlock .askUsContainer h1{
+  color: #B39DE1;
+}
+.backGroundDark .ourContactsBlock .askUsContainer .askUs button {
+  color: #CFC4E7;
+  background: #1B1B21;
+}
+.backGroundDark .calendarContainer {
+  background-color: #B39DE1;
+}
+.backGroundDark .calendarHeader h2 {
+  color: #1B1B21;
+}
+.backGroundDark .calendarBlock h2 {
+  color: #B39DE1;
+}
+.backGroundDark .calendarHeader h2 {
+  color: #1B1B21;
+}
+.backGroundDark .calendar {
+  background-color: #CFC4E7;
+}
+.backGroundDark .monday {
+  border-left: 1px dashed black;
+}
+.backGroundDark .tuesday {
+  border-left: 1px dashed black;
+}
+.backGroundDark .wednesday {
+  border-left: 1px dashed black;
+}
+.backGroundDark .thursday {
+  border-left: 1px dashed black;
+}
+.backGroundDark .friday {
+  border-left: 1px dashed black;
+}
+.backGroundDark .saturday {
+  border-left: 1px dashed black;
+}
+.backGroundDark .sunday {
+  border-left: 1px dashed black;
+}
+.backGroundDark .div10 {
+  border-top: 1px dashed black;
+}
+.backGroundDark .div11 {
+  border-top: 1px dashed black;
+}
+.backGroundDark .div12 {
+  border-top: 1px dashed black;
+}
+.backGroundDark .div13 {
+  border-top: 1px dashed black;
+}
+.backGroundDark .div14 {
+  border-top: 1px dashed black;
+}
+.backGroundDark .div15 {
+  border-top: 1px dashed black;
+}
+.backGroundDark .div16 {
+  border-top: 1px dashed black;
+}
+.backGroundDark .div17 {
+  border-top: 1px dashed black;
+}
+.backGroundDark .div18 {
+  border-top: 1px dashed black;
+}
+
+.backGroundDark .calendarDate {
+  background-color: #B39DE1;
+}
+.backGroundlight .monday {
+  border-left: 1px dashed #CFC4E7;
+}
+.backGroundlight .tuesday {
+  border-left: 1px dashed #CFC4E7;
+}
+.backGroundlight .wednesday {
+  border-left: 1px dashed #CFC4E7;
+}
+.backGroundlight .thursday {
+  border-left: 1px dashed #CFC4E7;
+}
+.backGroundlight .friday {
+  border-left: 1px dashed #CFC4E7;
+}
+.backGroundlight .saturday {
+  border-left: 1px dashed #CFC4E7;
+}
+.backGroundlight .sunday {
+  border-left: 1px dashed #CFC4E7;
+}
+.backGroundlight .div10 {
+  border-top: 1px dashed #CFC4E7;
+}
+.backGroundlight .div11 {
+  border-top: 1px dashed #CFC4E7;
+}
+.backGroundlight .div12 {
+  border-top: 1px dashed #CFC4E7;
+}
+.backGroundlight .div13 {
+  border-top: 1px dashed #CFC4E7;
+}
+.backGroundlight .div14 {
+  border-top: 1px dashed #CFC4E7;
+}
+.backGroundlight .div15 {
+  border-top: 1px dashed #CFC4E7;
+}
+.backGroundlight .div16 {
+  border-top: 1px dashed #CFC4E7;
+}
+.backGroundlight .div17 {
+  border-top: 1px dashed #CFC4E7;
+}
+.backGroundlight .div18 {
+  border-top: 1px dashed #CFC4E7;
+}
+.backGroundlight .calendarDays .Day{
+  border-left: dashed 1px #CFC4E7;
+}
+.backGroundlight .calendarDate {
+  background-color: #101014;
+}
+.backGroundlight .hour {
+  color: #CFC4E7;
+}
+.backGroundlight .hour span {
+  border-top: 1px dashed #CFC4E7;
+}
+.backGroundDark .calendarDays {
+  background-color: #CFC4E7;
+}
+.backGroundDark .calendarDays p {
+  color: rgba(27, 27, 33, 0.5);
+}
+.backGroundDark .calendarDays .today:last-child {
+  background: #B39DE1;
+  color: #CFC4E7;
+}
+.backGroundDark .calendarDays p:last-child {
+  color: #1B1B21;
+}
+.backGroundDark .calendarDays .Day {
+  border-left: dashed 1px black;
+}
+.backGroundDark .hour {
+  color: rgba(27, 27, 33, 0.5);
+}
+.backGroundDark .hour span {
+  border-top: 1px dashed black;
+}
+
+.backGroundDark .leaveMessage h2 {
+  color: #C8BAE6;
+}
+.backGroundDark .leaveMessage form label {
+  border-bottom: 1px solid #C8BAE5;
+}
+.backGroundDark .leaveMessage form input {
+  color: #CFC4E7;
+}
+.backGroundDark .leaveMessage form button:hover {
+  color: #C8BAE5;
+}
+.backGroundDark .leaveMessage form button:hover svg path {
+  fill: #C8BAE5;
+}
+.backGroundDark .leaveMessage form input::placeholder {
+  color: #C8BAE5;
+}
+.backGroundDark .leaveMessage form input::-ms-input-placeholder {
+  color: #C8BAE5;
+}
+.backGroundDark .leaveMessage form input {
+  color: #CFC4E7;
+}
+.backGroundDark .leaveMessage form button {
+  color: #101014;
+}
+.backGroundDark .leaveMessage form label {
+  border-bottom: 1px solid #C8BAE5;
+}
+
+.backGroundlight .leaveMessage h2 {
+  color: #101014;
+}
+.backGroundlight .leaveMessage form label {
+  border-bottom: 1px solid #101014;
+}
+.backGroundlight .leaveMessage form input {
+  color: #1B1B21;
+}
+.backGroundlight .leaveMessage form button:hover {
+  color: #C8BAE5;
+}
+.backGroundlight .leaveMessage form button:hover svg path {
+  fill: #1B1B21;
+}
+.backGroundlight .leaveMessage form input::placeholder {
+  color: #101014;
+}
+.backGroundlight .leaveMessage form input::-ms-input-placeholder {
+  color: #101014;
+}
+.backGroundlight .leaveMessage form button {
+  color: #101014;
+}
+.ourContactsBlock {
+    padding: 0 30px;
+    margin-bottom: 200px;
+  }
+  .ourContactsBlock h1 {
+    font-family: "Montserrat arm";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.5vw;
+    line-height: 143.4%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+  }
+  .ourContactsBlock .ourContactsContainer {
+    padding: 5vw;
+    border-radius: 24.1558px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+  }
+  .ourContactsBlock .ourContactsContainer .ourContatcs {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+  }
+  .ourContactsBlock .ourContactsContainer .ourContatcs svg{
+    width: 2.5vw;
+    height: 2.5vw;
+  }
+  .ourContactsBlock .ourContactsContainer .ourContatcs div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 32px;
+    row-gap: 10px
+    ;
+    align-items: center;
+  }
+  .ourContactsBlock .ourContactsContainer .map {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .ourContactsBlock .ourContactsContainer .map .media {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    margin-top: 15px;
+  }
+  .ourContactsBlock .ourContactsContainer .map .media a {
+    text-decoration: none;
+  }
+  .ourContactsBlock .ourContactsContainer h3 {
+    font-family: "Montserrat arm";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5vw;
+    line-height: 44px;
+  }
+  .ourContactsBlock .ourContactsContainer p {
+    width: 80%;
+    font-family: "Montserrat arm";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5vw;
+    line-height: 35px;
+  }
+  .ourContactsBlock .askUsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .ourContactsBlock .askUsContainer h1 {
+    font-family: "Montserrat arm";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 4.5vw;
+    line-height: 143.4%;
+
+    padding-bottom: 50px;
+  }
+  .ourContactsBlock .askUsContainer .askUs {
+    display: flex;
+    flex-direction: row;
+    gap: 3.5vw;
+  }
+  .ourContactsBlock .askUsContainer .askUs button {
+    font-family: "Montserrat arm";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.5vw;
+    line-height: 34px;
+    padding: 20px 40px;
+    border-radius: 248.234px;
+    border: none;
+    cursor: pointer;
+    min-width: max-content;
+  }
+  .ourContactsBlock .askUsContainer .askUs .active {
+    background: linear-gradient(92.15deg, #B39DE1 0%, #BC0FB9 98.22%);
+  }
+  .restrictblock {
+    display: none;
+    z-index: 6;
+    position: fixed;
+  }
+  .calendarBlock{
+    width: 100%;
+    height: 100vh;
+    padding: 100px 30px;
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    top: 50px;
+    position: fixed;
+}
+.calendarContainer{
+    border-radius: 40px;
+    width: 60%;
+    height: 60vh;
+}
+.calendarHeader h2{
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 143.4%;
+    margin: 0;
+}
+.calendarBlock h2{
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 108.9%;
+    width: 100%;
+    text-align: center;
+}
+.calendarHeader h2{
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 143.4%;
+}
+.calendar{
+    height: 45vh;
+    display: grid;
+    grid-template-columns: 57px repeat(7, 1fr);
+    margin: 0 20px;
+    padding: 0 10px;
+}
+.monday{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(36, 1fr);
+}
+.tuesday{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(36, 1fr);
+
+}
+.wednesday{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(36, 1fr);
+
+}
+.thursday{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(36, 1fr);
+
+}
+.friday{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(36, 1fr);
+
+}
+.saturday{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(36, 1fr);
+
+}
+.sunday{
+    width: 100%;
+    display: grid;
+    grid-template-rows: repeat(36, 1fr);
+
+}
+
+.div10{
+    grid-area: 1/1/1/1;
+
+}
+.div1015{
+    grid-area: 2/1/2/1;
+}
+.div1030{
+    grid-area: 3/1/3/1;
+}
+.div1045{
+    grid-area: 4/1/4/1;
+}
+.div11{
+    grid-area: 5/1/5/1;
+
+}
+.div1115{
+    grid-area: 6/1/6/1;
+}
+.div1130{
+    grid-area: 7/1/7/1;
+}
+.div1145{
+    grid-area: 8/1/8/1;
+}
+.div12{
+    grid-area: 9/1/9/1;
+
+}
+.div1215{
+    grid-area: 10/1/10/1;
+}
+.div1230{
+    grid-area: 11/1/11/1;
+}
+.div1245{
+    grid-area: 12/1/12/1;
+}
+.div13{
+    grid-area: 13/1/13/1;
+
+}
+.div1315{
+    grid-area: 14/1/14/1;
+}
+.div1330{
+    grid-area: 15/1/15/1;
+    
+}
+.div1345{
+    grid-area: 16/1/16/1;
+}
+.div14{
+    grid-area: 17/1/17/1;
+
+}
+.div1415{
+    grid-area: 18/1/18/1;
+}
+.div1430{
+    grid-area: 19/1/19/1;
+}
+.div1445{
+    grid-area: 20/1/20/1;
+}
+.div15{
+    grid-area: 21/1/21/1;
+}
+.div1515{
+    grid-area: 22/1/22/1;
+}
+.div1530{
+    grid-area: 23/1/23/1;
+}
+.div1545{
+    grid-area: 24/1/24/1;
+}
+.div16{
+    grid-area: 25/1/25/1;
+
+}
+.div1615{
+    grid-area: 26/1/26/1;
+}
+.div1630{
+    grid-area: 27/1/27/1;
+}
+.div1645{
+    grid-area: 28/1/28/1;
+}
+.div17{
+    grid-area: 29/1/29/1;
+}
+.div1715{
+    grid-area: 30/1/30/1;
+}
+.div1730{
+    grid-area: 31/1/31/1;
+}
+.div1745{
+    grid-area: 32/1/32/1;
+}
+.div18{
+    grid-area: 33/1/33/1;
+
+}
+.div1815{
+    grid-area: 34/1/34/1;
+}
+.div1830{
+    grid-area: 35/1/35/1;
+}
+.div1845{
+    grid-area: 36/1/36/1;
+}
+
+
+.calendarDate{
+    width: 90%;
+    height: 95%;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+    align-self: flex-end;
+}
+
+.time{
+    display: grid;
+    grid-template-rows: repeat(9, 1fr);
+    justify-items: flex-end;
+}
+.calendarDays{
+    display: grid;
+    grid-template-columns: 57px repeat(7, 1fr);
+    margin: 0 20px;
+    border-radius: 30px 30px 0 0;
+    height: 70px;
+    padding: 0 10px;
+    align-items: flex-end;
+}
+.calendarDays p{
+    text-align: center;
+    margin: 0;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 143.4%;
+}
+.calendarDays .today:last-child{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+.calendarDays p:last-child{
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143.4%;
+    text-align: center;
+}
+.calendarDays .Day{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 50%;
+}
+.hour{
+    display: flex;
+    flex-direction: row;
+    line-height: 0px;
+    font-family: 'Montserrat arm';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+}
+.hour span{
+    display: block;
+    width: 30px;
+}
+
+
+.leaveMessage {
+    width: 100%;
+    min-height: 130px;
+    top: 150px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 10;
+  }
+  .leaveMessage h2 {
+    width: 80%;
+    margin-bottom: 50px;
+      font-family: "Montserrat arm";
+      font-style: normal;
+      font-weight: 800;
+      font-size: 60px;
+      line-height: 108.9%;
+      text-align: center;
+      text-transform: uppercase;
+      color: #C8BAE6;
+  }
+  .leaveMessage h2 span {
+    animation: fadeIn 1s forwards;
+  }
+  .leaveMessage form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 50px;
+    justify-content: center;
+    /* Firefox */
+  }
+  .leaveMessage form label {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+  }
+  .leaveMessage form input {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    font-family: "Montserrat arm";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 39px;
+    height: 40px;
+    padding: 5px 0;
+  }
+  .leaveMessage form input::placeholder {
+    opacity: 1;
+  }
+  .leaveMessage form input:focus {
+    outline: none;
+  }
+  .leaveMessage form input::-webkit-outer-spin-button,
+  .leaveMessage form input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .leaveMessage form input[type=number] {
+    -moz-appearance: textfield;
+  }
+  .leaveMessage form button {
+    align-self: center;
+    cursor: pointer;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    font-family: "WeblySleek UI";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.9px;
+    line-height: 29px;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 20px 30px;
+    border-radius: 20px;
+    border: none;
+    background: linear-gradient(91.06deg, #B39DE1 0%, #BC0FB9 102.84%);
+  }
+
+  .leaveMessage form button:hover svg {
+    rotate: -45deg;
+  }
+
+  .customCheck {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    user-select: none;
+    font-family: "Mardoto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #000000;
+  }
+  
+  .customCheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 30px;
+    background: #CFC4E7;
+    border-radius: 3px;
+  }
+  
+  .customCheck:hover input ~ .checkmark {
+    background-color: #B39DE1;
+  }
+  
+  .customCheck input:checked ~ .checkmark {
+    background-color: #CFC4E7;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .customCheck input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  .customCheck .checkmark:after {
+    top: 2px;
+    left: 8px;
+    width: 10px;
+    margin: auto;
+    height: 17px;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+
+/*# sourceMappingURL=contactUs.css.map */
+
+
+@media (max-width: 1023px){
+  .ourContactsBlock .ourContactsContainer h3{
+    line-height: 15px;
+    font-size: 1.9vw;
+  }
+  .ourContactsBlock .ourContactsContainer p{
+    line-height: 15px;
+  }
+  .ourContactsBlock .ourContactsContainer .map .media{
+    gap: 25px;
+  }
+}
+@media (max-width: 767px){
+  .ourContactsBlock .ourContactsContainer{
+    flex-direction: column;
+  }
+  .ourContactsBlock .ourContactsContainer .ourContatcs{
+    width: 100%;
+    padding-bottom: 10px;
+  }
+  .ourContactsBlock .ourContactsContainer .map{
+    width: 100%;
+  }
+  .ourContactsBlock .askUsContainer .askUs{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .ourContactsBlock .askUsContainer .askUs button{
+    font-size: 2vw;
+    padding: 10px 20px;
+    line-height: 10px;
+  }
+  .ourContactsBlock .ourContactsContainer .map .media{
+    gap: 10px;
+  }
+  .ourContactsBlock .ourContactsContainer .ourContatcs svg{
+    width: 4vw;
+    height: 4vw;
+  }
+  .ourContactsBlock .ourContactsContainer .ourContatcs div{
+    column-gap: 10px;
+    row-gap: 0;
+  }
+  .ourContactsBlock .ourContactsContainer h3{
+    font-size: 3vw;
+  }
+  .ourContactsBlock .ourContactsContainer .ourContatcs{
+    gap: 10px;
+  }
+  .ourContactsBlock .ourContactsContainer p{
+    font-size: 2.5vw;
+  }
+}

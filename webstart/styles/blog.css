@@ -1,0 +1,471 @@
+.blogBlock .blogHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30px;
+  }
+  .blogBlock .blogHeader h2 {
+    font-family: "Montserrat arm";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 85px;
+    line-height: 143.4%;
+    display: flex;
+    align-items: center;
+    color: #B39DE1;
+  }
+  .blogBlock .blogHeader p {
+    font-family: "WeblySleek UI";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 143.4%;
+    text-transform: uppercase;
+    color: #B39DE1;
+  }
+  .blogBlock .blogContainer .filterContainer {
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  .blogBlock .blogContainer .filterContainer .filterSearch {
+    width: 100%;
+    background: #1B1B21;
+    border-radius: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    padding-left: 45px;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+  }
+  .blogBlock .blogContainer .filterContainer .filterSearch input {
+    height: 100%;
+    background: none;
+    border: none;
+    width: 100%;
+    padding-left: 20px;
+    font-family: "Montserrat arm";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.1022px;
+    line-height: 22px;
+    color: rgba(179, 157, 225, 0.75);
+  }
+  .blogBlock .blogContainer .filterContainer .filterSearch input:focus {
+    outline: none;
+  }
+  .blogBlock .blogContainer .filterContainer .filterSearch button {
+    padding: 30px 60px;
+    font-family: "Montserrat arm";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18.1022px;
+    line-height: 22px;
+    color: #1B1B21;
+    background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+    border-radius: 10px;
+    border: none;
+  }
+  .blogBlock .blogContainer .filterContainer .filters {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 15px;
+    column-gap: 5px;
+    margin-bottom: 80px;
+  }
+  .blogBlock .blogContainer .filterContainer .filters .filter {
+    font-family: "Montserrat arm";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18.1022px;
+    line-height: 22px;
+    color: #CFC4E7;
+    padding: 10px 20px;
+    background: #1B1B21;
+    border-radius: 156.303px;
+    cursor: pointer;
+  }
+  .blogBlock .blogContainer .filterContainer .filters .active {
+    animation: none;
+    color: #101014;
+    background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+  }
+  .blogBlock .blogContainer .blogs {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30px;
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  .blogBlock .blogContainer .blogs .blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px 30px;
+    background: #1B1B21;
+    border-radius: 12px;
+    border: 1px solid #CFC4E7;
+  }
+  .blogBlock .blogContainer .blogs .blog .imgBox {
+    position: relative;
+  }
+  .blogBlock .blogContainer .blogs .blog .imgBox img {
+    width: 100%;
+    height: 100%;
+  }
+  .blogBlock .blogContainer .blogs .blog .imgBox button {
+    background: #B39DE1;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 5.5vw;
+    height: 5.5vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+  }
+
+  .blogBlock .blogContainer .blogs .blog .textBox {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  .blogBlock .blogContainer .blogs .blog .textBox .textBoxHeader {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .blogBlock .blogContainer .blogs .blog .textBox .textBoxHeader p {
+    font-family: "Mardoto";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20.2133px;
+    line-height: 24px;
+    color: #CFC4E7;
+  }
+  .blogBlock .blogContainer .blogs .blog .textBox .textBoxHeader a {
+    font-family: "Mardoto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15.16px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: #101014;
+    padding: 10px 19px;
+    background: #B39DE1;
+    border-radius: 25px;
+    text-decoration: none;
+  }
+  .blogBlock .blogContainer .blogs .blog .textBox h2 {
+    font-family: "WeblySleek UI";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 109.51%;
+    color: #B39DE1;
+  }
+  .blogBlock .blogContainer .blogs .blog .textBox p {
+    font-family: "WeblySleek UI";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 130%;
+    color: #CFC4E7;
+  }
+  .blogBlock .blogContainer .blogs .blog .textBox a {
+    font-family: "WeblySleek UI";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 130%;
+    color: #B39DE1;
+    text-decoration: none;
+  }
+  .blogBlock .blogContainer .offerForm{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+  }
+  .blogBlock .blogContainer .offerForm button{
+    width: fit-content;
+    background: linear-gradient(94.73deg, #B39DE1 61%, #B39DE1 61%, #BC0FB9 87.31%);
+    border-radius: 32px;
+    font-family: 'WeblySleek UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 38.9189px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #101014;
+    padding: 20px 30px;
+    border: none;
+    cursor: pointer;
+  }
+  .blogBlock .blogContainer .offerForm button:hover{
+    color: #CFC4E7;
+  }
+  .blogBlock .blogContainer .offerForm button:hover svg{
+    rotate: -45deg;
+  }
+  .blogBlock .blogContainer .offerForm button svg{
+    fill: #101014;
+  }
+  .blogBlock .blogContainer .offerForm button:hover svg{
+    fill: #CFC4E7;
+  }
+  .blogBlock .blogContainer .offerForm h2{
+    font-family: 'WeblySleek UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5vw;
+    color: #CFC4E7;
+    line-height: 145px;
+   }
+   .blogBlock .blogContainer .offerForm h2 span{
+    padding: 0px 25px 15px 25px;
+    color: #1B1B21;
+     background: linear-gradient(94.73deg, #B39DE1 61%, #B39DE1 61%, #BC0FB9 87.31%);
+     border-radius: 60px;
+   }
+   .blogBlock .blogContainer .offerForm .offerFormFooter{
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 7%;
+    box-sizing: border-box;
+   }
+   .blogBlock .blogContainer .offerForm .offerFormFooter p{
+    font-family: 'WeblySleek UI';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #CFC4E7;
+   }
+   .blogBlock .blogContainer .offerForm .offerFormFooter::after{
+    content:  "";
+    position: absolute;
+    top: -39px;
+    left: 50%;  
+    background-color: #CFC4E7;
+    height: 70px;
+    width: 1px;
+   }
+.offerFormFooter .phoneNumber {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+  }
+.offerFormFooter .phoneNumber a {
+    font-family: "WeblySleek UI";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 0.9vw;
+    line-height: 21px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #CFC4E7;;
+  }
+.offerFormFooter .phoneNumber .dark:hover {
+    text-shadow: none;
+    opacity: 1;
+    color: #CFC4E7;
+  }
+.offerFormFooter .phoneNumber .light:hover {
+    text-shadow: none;
+    opacity: 1;
+    color: #101014;
+  }
+
+.blogBlock .blogContainer .seeMore {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 97%;
+    margin: 150px 30px;
+    box-sizing: border-box;
+    font-family: "Montserrat arm";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 5.2vw;
+    line-height: 110%;
+    text-align: center;
+    padding: 32px 0;
+    border: 1px solid #B39DE1;
+    border-left: none;
+    border-right: none;
+    color: rgb(16, 16, 20);
+    text-shadow: 0.5px 0 #B39DE1, -0.5px 0 #B39DE1, 0 0.5px #B39DE1, 0 -0.5px #B39DE1, 0.5px 0.5px #B39DE1, -0.5px -0.5px #B39DE1, 0.5px -0.5px #B39DE1, -0.5px 0.5px #B39DE1;
+    opacity: 0.7;
+  }
+.blogBlock .blogContainer .seeMore:hover {
+    color: #B39DE1;
+  }
+.blogBlock .blogContainer .seeMore:hover svg {
+    rotate: -45deg;
+  }
+.blogBlock .blogContainer .seeMore:hover svg path {
+    fill: #B39DE1;
+  }
+  @media (max-width: 1023px){
+    .blogBlock .blogContainer .offerForm h2{
+      line-height:75px;
+      font-size: 42px;
+    }
+    .blogBlock .blogContainer .offerForm button{
+      font-size: 18px;
+      padding: 16px 25px;
+      line-height: 24px;
+    }
+    .blogBlock .blogContainer .offerForm button svg{
+      width: 15px;
+      height: 15px;
+    }
+    .blogBlock .blogContainer .blogs{
+        grid-template-columns: 1fr;
+    }
+    .blogBlock .blogContainer .offerForm .offerFormFooter p{
+      font-size: 6px;
+    }
+    .offerFormFooter .phoneNumber a{
+      font-size: 16px;
+    }
+    .blogBlock .blogContainer .blogs .blog .imgBox button{
+        width: 15vw;
+        height: 15vw;
+    }
+    .blogBlock .blogHeader{
+      flex-wrap: wrap;
+      padding-bottom: 20px;
+    }
+    .blogBlock .blogHeader p{
+      width: 100%;
+    }
+    .blogBlock .blogHeader h2{
+      font-size: 52px;
+    }
+    .blogBlock .blogHeader p{
+      font-size: 14px;
+    }
+    .blogBlock .blogContainer .filterContainer .filterSearch{
+      height: 30px;
+    }
+    .blogBlock .blogContainer .filterContainer .filterSearch svg{
+      width: 10px;
+      height: 10px;
+    }
+    .blogBlock .blogContainer .filterContainer .filterSearch input{
+      font-size: 7px;
+    }
+    
+    .blogBlock .blogContainer .filterContainer .filterSearch button{
+      font-size: 6.89051px;
+      padding: 15px 25px;
+      line-height: 0;
+    }
+    .blogBlock .blogContainer .filterContainer .filters .filter{
+      font-size: 14px;
+      line-height: 10px;
+    }
+    .blogBlock .blogContainer .blogs{
+      padding: 0 10px;
+    }
+    .blogBlock .blogContainer .seeMore{
+    display: none; 
+    }
+  }
+  @media(max-width: 767px){
+    .blogBlock .blogContainer .filterContainer .filters .filter{
+      font-size: 6px;
+      line-height: 0;
+    }
+    .blogBlock .blogContainer .blogs .blog{
+      padding: 15px 10px;
+    }
+    .blogBlock .blogContainer .blogs .blog .textBox h2{
+      font-size: 11px;
+      line-height: 13px;
+    }
+    .blogBlock .blogContainer .blogs .blog .textBox p{
+      font-size: 10px;
+      line-height: 14px;
+    }
+    .blogBlock .blogContainer .blogs .blog .textBox .textBoxHeader p{
+      font-size: 10px;
+      line-height: 12px;
+    }
+    .blogBlock .blogContainer .blogs .blog .textBox{
+      gap: 10px
+      ;
+    }
+    .blogBlock .blogContainer .blogs .blog .textBox .textBoxHeader a{
+      font-size: 7px;
+      line-height: 9px;
+    }
+    .blogBlock .blogContainer .offerForm h2{
+      font-size: 20px;
+      line-height: 35px;
+    }
+    .blogBlock .blogContainer .offerForm button{
+      font-size: 7px;
+      line-height: 10px;
+      padding: 7px 13px;
+    }
+    .blogBlock .blogContainer .offerForm button svg{
+      width: 6px;
+      height: 6px;
+    }
+    .blogBlock .blogContainer .offerForm{
+      gap: 20px;
+    }
+    .blogBlock .blogContainer .offerForm .offerFormFooter{
+      margin-top: 50px;
+      align-items: center;
+      padding: 0;
+    }
+    .blogBlock .blogContainer .offerForm h2 span{
+      padding: 0px 10px 5px 10px;
+      border-radius: 10px;
+    }
+    .blogBlock .blogContainer .offerForm .offerFormFooter::after{
+      height: 15px;
+      top: 0;
+    }
+    .blogBlock .blogContainer .offerForm .offerFormFooter p{
+      font-size: 3px;
+      line-height: 4px;
+    }
+    .offerFormFooter .phoneNumber a{
+      font-size: 7px;
+    }
+    .offerFormFooter .phoneNumber svg{
+      width: 5px;
+      height: 5px;
+    }
+    .blogBlock .blogContainer .offerForm{
+      padding: 0 10px;
+    }
+  }

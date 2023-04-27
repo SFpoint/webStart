@@ -1,0 +1,1294 @@
+@keyframes pulsar {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  50% {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+  75% {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes movement {
+  0% {
+    top: 5%;
+    left: -26%;
+  }
+  25% {
+    top: 37px;
+    left: 194px;
+  }
+  50% {
+    top: -10%;
+    left: 458px;
+  }
+  75% {
+    top: -15px;
+    left: 595px;
+  }
+  100% {
+    top: 5%;
+    left: -26%;
+  }
+}
+@keyframes movement2 {
+  0% {
+    top: -10%;
+    left: 75%;
+  }
+  25% {
+    top: 18px;
+    left: 1645px;
+  }
+  50% {
+    top: 69px;
+    left: 643px;
+  }
+  75% {
+    top: -15px;
+    left: 414px;
+  }
+  100% {
+    top: -10%;
+    left: 75%;
+  }
+}
+@keyframes hover {
+  from {
+    background: rgba(200, 186, 229, 0.1);
+  }
+  to {
+    background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+  }
+}
+@keyframes mouseleave {
+  from {
+    background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+  }
+  to {
+    background: rgba(200, 186, 229, 0.1);
+  }
+}
+@keyframes langChoice {
+  from {
+    left: 0;
+  }
+  to {
+    left: 90px;
+  }
+}
+@keyframes langChoice2 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 30px;
+  }
+}
+@keyframes langChoice3 {
+  from {
+    left: 0;
+  }
+  to {
+    left: 60px;
+  }
+}
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+}
+@keyframes rolldown {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes slideout {
+  from {
+    margin-right: 0%;
+  }
+  to {
+    margin-right: 500%;
+  }
+}
+@keyframes slidein {
+  from {
+    margin-right: 500%;
+  }
+  to {
+    margin-right: 0%;
+  }
+}
+@keyframes fadeinout {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes dingDing {
+  0% {
+    rotate: 0deg;
+  }
+  25% {
+    rotate: 30deg;
+  }
+  75% {
+    rotate: -30deg;
+  }
+  100% {
+    rotate: 0deg;
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  transition: all 300ms ease-out;
+}
+
+@font-face {
+  font-family: "WeblySleek UI";
+  src: url("../fonts/fonts weblysleek UI/weblysleekuil.ttf");
+}
+@font-face {
+  font-family: "Montserrat arm";
+  src: url("../fonts/monsterat arm/Montserratarm-SemiBold.otf");
+}
+.mainBlock {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+}
+
+.arrow svg:last-of-type {
+  opacity: 0;
+}
+
+.arrow {
+  position: relative;
+}
+
+.arrow svg {
+  position: absolute;
+  bottom: 3px;
+}
+
+.dark {
+  color: #D6C6DD;
+}
+
+.dark:hover {
+  text-shadow: 0.5px 0 #D7C6DD, -0.5px 0 #D7C6DD, 0 0.5px #D7C6DD, 0 -0.5px #D7C6DD, 0.5px 0.5px #D7C6DD, -0.5px -0.5px #D7C6DD, 0.5px -0.5px #D7C6DD, -0.5px 0.5px #D7C6DD;
+  color: #101014;
+  opacity: 0.7;
+}
+
+.phoneNumber .dark:hover {
+  text-shadow: none;
+  opacity: 1;
+  color: #D6C6DD;
+}
+
+.freeCalcBtn:hover .dark {
+  text-shadow: none;
+  opacity: 1;
+  color: #13121A;
+}
+
+.headerFooterContainer .dark {
+  text-shadow: none;
+  opacity: 1;
+  color: #D6C6DD;
+}
+
+.headerCart {
+  position: sticky;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.light {
+  color: #101014;
+}
+
+p {
+  cursor: default;
+}
+
+h1 {
+  cursor: default;
+}
+
+h2 {
+  cursor: default;
+}
+
+.restrictblock {
+  background-color: #101014;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+.restrictblock .restrictContainer {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.restrictblock .restrictContainer .centerAnim {
+  overflow: hidden;
+  position: absolute;
+  top: -10%;
+  left: 75%;
+  animation: pulsar 14s infinite ease-in, fade 15s infinite ease-in, movement2 60s infinite ease-in;
+  width: 40%;
+}
+.restrictblock .restrictContainer .leftAnim {
+  overflow: hidden;
+  position: absolute;
+  top: 5%;
+  left: -26%;
+  animation: pulsar 10s infinite ease-in, fade 18s infinite ease-in, movement 72s infinite ease-in;
+}
+
+header {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+header .headerContainer {
+  width: 100%;
+  max-width: 1920px;
+  box-sizing: border-box;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header .menuBtn {
+  cursor: pointer;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+header .menuBtn:hover {
+  transform: rotate(360deg);
+  transition-duration: 500ms;
+}
+header nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+header nav a {
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header nav details {
+  cursor: pointer;
+}
+header nav details summary {
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  gap: 7px;
+}
+header nav details summary .arrow svg:last-of-type {
+  opacity: 0;
+}
+header nav details summary .arrow {
+  position: relative;
+}
+header nav details summary .arrow svg {
+  position: absolute;
+  bottom: 3px;
+}
+header nav summary:hover .arrow svg:first-of-type {
+  opacity: 0;
+}
+header nav summary:hover .arrow svg:last-of-type {
+  opacity: 0.7;
+  rotate: 45deg;
+}
+header .lang {
+  height: 20px;
+  width: 120px;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+header .lang summary {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+}
+header .lang summary .singleLang {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+header .lang summary .singleLang p {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+header .lang summary .langChoice {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header .lang:hover summary .singleLang {
+  position: absolute;
+  top: 0;
+  animation: fadeout 1s forwards;
+  z-index: 0;
+}
+header .lang:hover summary .langChoice {
+  display: flex;
+  z-index: 1;
+}
+header .lang:hover summary .langChoice svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header .lang:hover summary .langChoice svg:first-of-type {
+  animation: langChoice 1s forwards;
+}
+header .lang:hover summary .langChoice svg:nth-child(3) {
+  animation: langChoice2 1s forwards;
+}
+header .lang:hover summary .langChoice svg:last-of-type {
+  animation: langChoice3 1s forwards;
+}
+header .options {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 40px;
+}
+header .options .phoneNumber {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+header .options .phoneNumber a {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+header .options .freeCalcBtn {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  background: rgba(200, 186, 229, 0.1);
+  border-radius: 10px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+header .options .freeCalcBtn:hover {
+  background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+}
+header .options .themeSwitch {
+  margin: 0 20px;
+  cursor: pointer;
+}
+header .options .themeSwitch svg:last-of-type {
+  display: none;
+}
+header .options .notifications {
+  position: relative;
+  cursor: pointer;
+}
+header .options .notifications details {
+  position: relative;
+}
+header .options .notifications details summary {
+  list-style: none;
+}
+header .options .notifications details .dropDown {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  background: #101014;
+  align-items: flex-end;
+  padding: 10px;
+}
+header .options .notifications details .dropDown .notification {
+  background-color: #1B1B21;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  width: 176px;
+  padding: 10px;
+  box-sizing: border-box;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 5px;
+}
+header .options .notifications details .dropDown .notification img {
+  width: 40px;
+  height: 40px;
+}
+header .options .notifications details .dropDown .notification .textBox {
+  color: #FFFFFF;
+}
+header .options .notifications details .dropDown .notification .textBox h2 {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 13px;
+  min-width: max-content;
+}
+header .options .notifications details .dropDown .notification .textBox p {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 7px;
+  line-height: 120%;
+}
+header .options .notifications details .dropDown .notification:hover {
+  background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+}
+header .options .notifications details .dropDown .notification:hover .textBox {
+  color: #101014;
+}
+header .options .notifications details .dropDown .seeMore {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 12px;
+  align-self: flex-end;
+  color: #C8BAE5;
+  text-decoration: none;
+}
+header .options .notifications summary::after {
+  content: "3";
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+  border-radius: 50%;
+  top: 0;
+  right: -5px;
+}
+header .options .notifications summary:hover {
+  animation: dingDing 1s;
+}
+
+.headerFooterBlock {
+  position: absolute;
+  bottom: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.headerFooterBlock .headerFooterContainer {
+  width: 100%;
+  max-width: 1900px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.headerFooterBlock .headerFooterContainer h1 {
+  cursor: default;
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 91.785px;
+  line-height: 108.9%;
+  text-transform: uppercase;
+}
+.headerFooterBlock .headerFooterContainer .slider .slidersControl input[type=range]::-webkit-slider-thumb {
+  background-image: url("../images/Subtract.png");
+  background-repeat: no-repeat;
+  background-color: #101014;
+  background-size: contain;
+  -webkit-appearance: none;
+  pointer-events: all;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.headerFooterBlock .headerFooterContainer .slider .slidersControl input[type=range]::-moz-range-thumb {
+  background-image: url("../images/Subtract.png");
+  background-color: #101014;
+  background-size: contain;
+  -webkit-appearance: none;
+  pointer-events: all;
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.headerFooterBlock .headerFooterContainer .slider .slidersControl input[type=range]::-webkit-slider-thumb:active {
+  background-color: #C8BAE5;
+}
+.headerFooterBlock .headerFooterContainer .slider .slidersControl {
+  width: 473px;
+  height: 51px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 22px;
+}
+.headerFooterBlock .headerFooterContainer .slider .slidersControl input[type=range] {
+  background-color: rgba(200, 186, 229, 0.1);
+  border-radius: 100px;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 473px;
+  height: 51px;
+  position: absolute;
+  pointer-events: none;
+}
+.headerFooterBlock .headerFooterContainer .slider #fromSlider {
+  position: absolute;
+}
+.headerFooterBlock .headerFooterContainer .slider .slidersControl p {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  width: fit-content;
+}
+.headerFooterBlock .headerFooterContainer .slider p {
+  cursor: default;
+  width: 473px;
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 120%;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockDark {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockDark button {
+  width: max-content;
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.4px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #101014;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 25px;
+  width: 222px;
+  background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockDark button .arrow:last-of-type {
+  padding-left: 18px;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockDark button .arrow:last-of-type svg {
+  bottom: -4px;
+  opacity: 1;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockDark button:hover {
+  animation: mouseleave 1s;
+  animation-fill-mode: forwards;
+  color: #C8BAE5;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockDark button:hover .arrow svg {
+  rotate: -45deg;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockDark button:hover .arrow svg path {
+  opacity: 1;
+  fill: #C8BAE5;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockDark button:not(:hover) {
+  animation: reverse 1s;
+  animation-fill-mode: forwards;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockDark a {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockDark:after {
+  content: "";
+  width: 75%;
+  height: 2px;
+  background-color: #C8BAE6;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockLight {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockLight button {
+  width: max-content;
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14.4px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #101014;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 25px;
+  width: 222px;
+  background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockLight button .arrow {
+  padding-left: 18px;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockLight button .arrow svg {
+  bottom: -4px;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockLight button:hover {
+  animation: mouseleave 1s;
+  animation-fill-mode: forwards;
+  color: #C8BAE5;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockLight button:hover .arrow svg:first-of-type {
+  opacity: 0;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockLight button:hover .arrow svg:last-of-type {
+  stroke: #C8BAE5;
+  fill: #C8BAE5;
+  opacity: 0.7;
+  rotate: -45deg;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockLight button:not(:hover) {
+  animation: reverse 1s;
+  animation-fill-mode: forwards;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockLight a {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+}
+.headerFooterBlock .headerFooterContainer .footerBlockLight:after {
+  content: "";
+  width: 75%;
+  height: 2px;
+  background-color: #1B1B21;
+}
+
+.burgerMenuBlock {
+  display: none;
+  justify-content: center;
+  position: absolute;
+  top: 100vh;
+  width: 100%;
+  transition: 1s;
+  z-index: 5;
+}
+.burgerMenuBlock .burgerMenuContainer {
+  background-color: #1B1B21;
+  border-radius: 30px 30px;
+  padding: 100px 400px 0 400px;
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.burgerMenuBlock .burgerMenuContainer .burgerMenuHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.burgerMenuBlock .burgerMenuContainer .burgerMenuHeader button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  font-size: 30px;
+  color: #D6C6DD;
+  width: 50px;
+  height: 50%;
+  border-radius: 50%;
+}
+.burgerMenuBlock .burgerMenuContainer .burgerMenuHeader button:hover {
+  filter: drop-shadow(0 0 10px rgb(255, 0, 0));
+}
+.burgerMenuBlock .burgerMenuContainer .dropDownsBlock {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.burgerMenuBlock .burgerMenuContainer .dropDownsBlock .dropDownsContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+}
+.burgerMenuBlock .burgerMenuContainer .dropDownsBlock .dropDownsContainer details {
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+  transition: 1s ease-in;
+}
+.burgerMenuBlock .burgerMenuContainer .dropDownsBlock .dropDownsContainer details summary {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 47px;
+  text-transform: uppercase;
+  color: #D6C6DD;
+  list-style: none;
+}
+.burgerMenuBlock .burgerMenuContainer .dropDownsBlock .dropDownsContainer details summary svg {
+  fill: #D6C6DD;
+  rotate: -45deg;
+}
+.burgerMenuBlock .burgerMenuContainer .dropDownsBlock .dropDownsContainer details summary:hover {
+  text-shadow: 0.5px 0 #B39DE1, -0.5px 0 #B39DE1, 0 0.5px #B39DE1, 0 -0.5px #B39DE1, 0.5px 0.5px #B39DE1, -0.5px -0.5px #B39DE1, 0.5px -0.5px #B39DE1, -0.5px 0.5px #B39DE1;
+  color: #101014;
+  opacity: 0.7;
+}
+.burgerMenuBlock .burgerMenuContainer .dropDownsBlock .dropDownsContainer details summary:hover svg {
+  fill: none;
+  stroke: #B39DE1;
+  rotate: 0deg;
+}
+.burgerMenuBlock .burgerMenuContainer .dropDownsBlock .dropDownsContainer details .dropDown {
+  z-index: 5;
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 47px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  position: absolute;
+  opacity: 0;
+  background-color: #1B1B21;
+}
+.burgerMenuBlock .burgerMenuContainer .dropDownsBlock .dropDownsContainer details .dropDown a {
+  color: #D6C6DD;
+  text-decoration: none;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer {
+  width: 46%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .contacts a {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 27px;
+  color: #B39DE1;
+  text-decoration: none;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .contacts a:hover {
+  color: #CABBD1;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .contacts a:hover svg path {
+  fill: #CABBD1;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .address a {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+  color: #B39DE1;
+  text-decoration: none;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .address a:last-of-type {
+  padding-top: 6px;
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: 0.02em;
+  color: #CFC4E7;
+  width: max-content;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .address a:hover {
+  color: #CABBD1;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .address a:last-of-type:hover {
+  color: #B39DE1;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .media {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  gap: 22px;
+  height: 65px;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .media a {
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 40%;
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  color: #D6C6DD;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .media a:hover {
+  color: #B39DE1;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .policy {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 13px;
+  color: #9E9E9E;
+  width: max-content;
+  text-decoration: none;
+}
+.burgerMenuBlock .burgerMenuContainer .infoBlock .infoContainer .policy:hover {
+  color: #D6C6DD;
+}
+
+details[open] .dropDown {
+  animation-delay: 3s;
+  animation: rolldown 1s forwards ease-in;
+}
+
+details:not([open]) .dropDown {
+  opacity: 0;
+}
+
+.out {
+  animation: slideout 1s forwards;
+}
+
+.in {
+  animation: slidein 1s forwards;
+}
+
+.active {
+  animation: fadeinout 1s forwards;
+}
+
+.directsBlock {
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  top: 100vh;
+  transition: 1s;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.directsBlock .directsContainer {
+  z-index: 5;
+  background-color: #101014;
+  border-radius: 20px;
+  width: 95%;
+  box-sizing: border-box;
+  padding: 105px 30px;
+}
+.directsBlock .directsContainer .directsHeader p {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 143.4%;
+  text-transform: uppercase;
+  color: #B39DE1;
+}
+.directsBlock .directsContainer .directsHeader h2 {
+  font-family: "Montserrat arm";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 143.4%;
+  color: #CFC4E7;
+}
+.directsBlock .directsContainer .directsHeader .switch {
+  padding-top: 65px;
+}
+.directsBlock .directsContainer .directsHeader .switch button {
+  cursor: pointer;
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 27px;
+  color: #CFC4E7;
+  padding: 5px 30px;
+  background: #1B1B21;
+  border-radius: 25px;
+  border: none;
+}
+.directsBlock .directsContainer .directsHeader .switch .activeBtn {
+  background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+  color: #1B1B21;
+}
+.directsBlock .directsContainer .switchContainer {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  flex-wrap: wrap;
+  height: 550px;
+}
+.directsBlock .directsContainer .codes {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
+  width: 100%;
+}
+.directsBlock .directsContainer .codes .code {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #1B1B21;
+  border: 1px solid #1B1B21;
+  border-radius: 20px;
+  height: 230px;
+  padding: 25px 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.directsBlock .directsContainer .codes .code h2 {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25.5331px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #CFC4E7;
+}
+.directsBlock .directsContainer .codes .code .codeFooter {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.directsBlock .directsContainer .codes .code .codeFooter p {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #101014;
+}
+.directsBlock .directsContainer .codes .code .codeFooter svg path {
+  stroke: #B39DE1;
+  stroke-width: 1.27666px;
+}
+.directsBlock .directsContainer .codes .code:hover {
+  background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+}
+.directsBlock .directsContainer .codes .code:hover h2 {
+  color: #1B1B21;
+}
+.directsBlock .directsContainer .codes .code:hover .codeFooter svg {
+  rotate: -90deg;
+  width: 100px;
+  height: 100px;
+}
+.directsBlock .directsContainer .codes .code:hover .codeFooter svg path {
+  stroke-width: 0.5px;
+}
+.directsBlock .directsContainer .marketings {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
+  width: 100%;
+}
+.directsBlock .directsContainer .marketings .marketing {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #1B1B21;
+  border: 1px solid #1B1B21;
+  border-radius: 20px;
+  height: 230px;
+  padding: 25px 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.directsBlock .directsContainer .marketings .marketing h2 {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25.5331px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #CFC4E7;
+}
+.directsBlock .directsContainer .marketings .marketing .marketingFooter {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.directsBlock .directsContainer .marketings .marketing .marketingFooter p {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #101014;
+}
+.directsBlock .directsContainer .marketings .marketing .marketingFooter svg path {
+  stroke: #B39DE1;
+  stroke-width: 1.27666px;
+}
+.directsBlock .directsContainer .marketings .marketing:hover {
+  background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+}
+.directsBlock .directsContainer .marketings .marketing:hover h2 {
+  color: #1B1B21;
+}
+.directsBlock .directsContainer .marketings .marketing:hover .marketingFooter svg {
+  rotate: -90deg;
+  width: 100px;
+  height: 100px;
+}
+.directsBlock .directsContainer .marketings .marketing:hover .marketingFooter svg path {
+  stroke-width: 0.5px;
+}
+.directsBlock .directsContainer .designs {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 40px;
+  width: 100%;
+}
+.directsBlock .directsContainer .designs .design {
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background: #1B1B21;
+  border: 1px solid #1B1B21;
+  border-radius: 20px;
+  height: 230px;
+  padding: 25px 20px;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+.directsBlock .directsContainer .designs .design h2 {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 25.5331px;
+  line-height: 110%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #CFC4E7;
+}
+.directsBlock .directsContainer .designs .design .designFooter {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.directsBlock .directsContainer .designs .design .designFooter p {
+  font-family: "WeblySleek UI";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #101014;
+}
+.directsBlock .directsContainer .designs .design .designFooter svg path {
+  stroke: #B39DE1;
+  stroke-width: 1.27666px;
+}
+.directsBlock .directsContainer .designs .design:hover {
+  background: linear-gradient(94.73deg, #B39DE1 61%, #BC0FB9 87.31%);
+}
+.directsBlock .directsContainer .designs .design:hover h2 {
+  color: #1B1B21;
+}
+.directsBlock .directsContainer .designs .design:hover .designFooter svg {
+  rotate: -90deg;
+  width: 100px;
+  height: 100px;
+}
+.directsBlock .directsContainer .designs .design:hover .designFooter svg path {
+  stroke-width: 0.5px;
+}
+
+.cvBlock {
+  position: absolute;
+  width: 100%;
+  height: 90vh;
+  top: 300vh;
+  background: #4010a8;
+  transition: 1s;
+  opacity: 0.7;
+  z-index: 5;
+}
+.cvBlock .cvContainer {
+  height: 100%;
+  overflow-x: hidden;
+}
+.cvBlock .cvContainer p {
+  background-color: #CFC4E7;
+  height: 1000px;
+}
+
+/*# sourceMappingURL=styles.css%5D.map */
